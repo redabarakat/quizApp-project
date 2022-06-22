@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/test.css">
+    <title>Quiz about HTML</title>
+</head>
+<body>
+    <div class="quiz-app">
+        <div class="quiz-info">
+            <div class="category">Category: <span>HTML</span></div>
+            <div class="count">Questions count: <span></span></div>
+        </div>
+        <div class="quiz-area">
+            <h2></h2>
+        </div>
+        <div class="answer-area">
+            <div class="answer">
+                <input type="radio" name="Questions" id="answer_1">
+                <label for="answer_1"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="Questions" id="answer_2">
+                <label for="answer_2"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="Questions" id="answer_3">
+                <label for="answer_3"></label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="Questions" id="answer_4">
+                <label for="answer_4"></label>
+            </div>
+        </div>
+        <button class="submit">Submit answer</button>
+        <div class="bulltes">
+            <div class="spans">
+                <!-- <span class="on"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> -->
+            </div>
+            <div class="countdown">
+                Seconds: <span class="seconds"></span> s
+            </div>
+        </div>
+        <div class="results">
+            <p>
+                <strong>right answer: <span class="right">0</span></strong>
+                <strong>wromg answer: <span class="wrong">0</span></strong>
+            </p>
+            <div class="finalResult">
+                <h1></h1>
+                <p>your result is <span>5</span> from 10 </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <script src="./test.json" ></script> -->
+    <script src="./main.js" ></script>
+</body>
+</html>

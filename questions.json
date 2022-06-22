@@ -1,0 +1,82 @@
+[
+    {
+        "title": "why we use <br> Element",
+        "answer_1": "To make text bold",
+        "answer_2": "To make text italoc",
+        "answer_3": "To add breakline",
+        "answer_4": "To create Horizonital",
+        "right_answer": "To add breakline"
+    },
+    {
+        "title": "Is <imag> Element has attribute href?",
+        "answer_1":"Yes",
+        "answer_2":"NO its for anchor tag <a>",
+        "answer_3":"All Elemnts has this Attributes",
+        "answer_4":"Answer 1 and 3 is right",
+        "right_answer":"NO its for anchor tag <a>"
+    },
+    {
+        "title":"How can we make element text bold",
+        "answer_1":"Putting it iside <b> tag",
+        "answer_2":"Putting it inside strong",
+        "answer_3":"customizing it with font-weight property is css",
+        "answer_4":"All answers id right",
+        "right_answer": "All answers id right"
+    },
+    {
+        "title": "What is Html",
+        "answer_1": "HTML describes the structure of a webpage",
+        "answer_2": "HTML is the standard markup language",
+        "answer_3": "HtML consists of a set of element that helps the browser how to view the content",
+        "answer_4": "All of the mentioned",
+        "right_answer": "All of the mentioned"
+    },
+    {
+        "title": "Who is the father of HTML?",
+        "answer_1": "Rasmus Lerdorf",
+        "answer_2": "Tim Berners-Lee",
+        "answer_3": "Brendan Eich",
+        "answer_4": "Sergey Brin",
+        "right_answer": "Tim Berners-Lee"
+    },
+    {
+        "title": "HTML stands for....",
+        "answer_1": "HyperText Markup Language",
+        "answer_2": " HyperText Machine Language",
+        "answer_3": "HyperText Marking Language",
+        "answer_4": "HighText Marking Language",
+        "right_answer": "HyperText Markup Language"
+    },
+    {
+        "title": "What is the correct syntax of doctype in HTML5?",
+        "answer_1": "</doctype html>",
+        "answer_2": "<doctype html>",
+        "answer_3": "<doctype html!>",
+        "answer_4": "<!doctype html>",
+        "right_answer": "<!doctype html>"
+    },
+    {
+        "title": "Which of the following tag is used for inserting the largest heading in HTML?",
+        "answer_1": "head",
+        "answer_2": "<h1>",
+        "answer_3": "<h6>",
+        "answer_4": "heading",
+        "right_answer": "<h1>"
+    },
+    {
+        "title": "In which part of the HTML metadata is contained?",
+        "answer_1": "head tag",
+        "answer_2": " title tag",
+        "answer_3": "<h6>",
+        "answer_4": "html tag",
+        "right_answer": "head tag"
+    },
+    {
+        "title": " Which of the following is not a HTML5 tag?",
+        "answer_1": "<track>",
+        "answer_2": "<video>",
+        "answer_3": "<slider>",
+        "answer_4": "<source>",
+        "right_answer": "<slider>"
+    }
+]

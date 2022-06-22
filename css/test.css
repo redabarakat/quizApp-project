@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    font-family: Tahoma, Arial;
+    background: darkslategrey;
+}
+.quiz-app {
+    width: 70%;
+    margin: 50px auto;
+    background: linear-gradient(to top right, rgba(0,0,0,0.2), rgba(255,255,255,0.5));
+    padding: 21px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 40%),
+    10px 10px 10px rgba(0,0,0,0.3),
+    11px 11px 15px rgb(0 0 0 / 40%);
+}
+.quiz-info {
+    display: flex;
+    align-items: center;
+    background: #e91e63;
+    padding: 13px 15px;
+    font-size: 21px;
+    color: white;
+    border-radius: 10px;
+}
+.quiz-info .category {
+    flex: 1;
+}
+.quiz-info .count {
+    flex: 1;
+    text-align: right;
+}
+.quiz-info span {
+    color: #ffeb3b;
+    font-weight: bold;
+}
+.quiz-area {
+    padding: 10px 15px;
+    background: #00000099;
+    border-radius: 10px;
+    margin: 15px 0px;
+    color: white;
+}
+.quiz-area h2 {
+    text-transform: capitalize;
+}
+.answer-area {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: #00000099;
+}
+.answer-area .answer {
+    padding: 15px 15px;
+    margin: 8px 0px;
+    background: #0000009e;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: inset -4px -4px 10px rgba(255,255,255,0.4),
+    inset 4px 4px 10px rgba(255,255,255,0.4);
+}
+.answer-area .answer input[type="radio"]:checked + label {
+    color: #0075ff;
+}
+.answer-area .answer label {
+    cursor: pointer;
+}
+.submit {
+    text-align: revert;
+    margin: 10px auto;
+    width: 30%;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background: crimson;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover {
+    background-color: #ed143dbd;
+    letter-spacing: 1px;
+}
+.bulltes {
+    padding: 15px;
+    background: gray;
+    display: flex;
+    border-radius: 10px;
+    color: #ffeb3b;
+    font-weight: bold;
+}
+.bulltes .spans {
+    flex: 1;
+    display: flex;
+}
+.bulltes .spans span {
+    width: 18px;
+    height: 18px;
+    background: cornsilk;
+    border-radius: 50%;
+    margin: 0px 3px;
+}
+.bulltes .spans span.on {
+    background-color: #0075ff;
+}
+.results {
+    margin: 14px 0px;
+    padding: 15px;
+    text-align: center;
+    background: border-box;
+    box-shadow:  inset 10px 10px 56px rgb(0,0,0,0.3),
+    inset -10px -10px 56px rgb(0,0,0,0.3);
+    border-radius: 10px;
+    
+}
+.results h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.results > p {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.results > p span.right{
+    color: green;
+}
+.results > p span.wrong{
+    color: red;
+}
+.finalResult {
+    margin-top: 10px;
+    display: none;
+    transition: 0.5s;
+}
+.finalResult h1 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.finalResult h1.bad{
+    color: #dc0a0a;
+}
+.finalResult h1.Good{
+    color: #009688;
+}
+.finalResult h1.perfect{
+    color: #ffeb3b;
+}
+.finalResult p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.finalResult p span {
+    margin: 0px 5px;
+    color: #2196f3;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
